@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    font-family: 'Poppins';
+    --main-color: #5CE1E6;
+    --background-color: #00040F;
+}
+
+body {
+    padding-left: 135px;
+    padding-right: 135px;
+    background-color: var(--background-color);
+}
+
+.header {
+    margin-top: 30px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+
+    margin-bottom: 65px;
+}
+.header__text {
+    display: inline;
+    white-space: nowrap;
+}
+
+.discount-get_started-img {
+    position: absolute;
+    left: 600px;
+    top: 200px;
+}
+
+
+
+.header__text .primary,
+.header__text .highlight {
+  display: inline; /* Гарантирует, что оба span будут на одной строке */
+  margin: 0; /* Убирает дополнительные отступы, если есть */
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+.primary {
+    color: white;
+}
+.highlight {
+    color: var(--main-color);
+}
+
+.primary, .highlight {
+    font-weight: 600;
+    line-height: 130%;
+    font-size: 18px;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+}
+
+.link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 130%;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 56px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.discount-primary, .discount-highlight {
+    line-height: 150%;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.discount-primary {
+    color: white;
+}
+
+.discount-highlight {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.discount {
+    width: 408px;
+    height: 40px;
+    background: linear-gradient(-84deg,#11101D, #272727);
+    text-transform: uppercase;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 4px 10px 4px 10px;
+}
+
+.discount-img {
+    width: 32px;
+    height: 32px;
+    margin-right: 13px;
+}
+
+.text-primary, .text-highlight {
+    margin: 0;
+    font-weight: 600;
+    line-height: 140%;
+    font-size: 72px;
+}
+
+.text-primary {
+    color: white;
+}
+
+.text-highlight {
+    color: transparent;
+    background: linear-gradient(-66deg, #DEF9FA 1%, #BEF3F5 17%, #9DEDF0 42%, #7DE7EB 55%, #5CE1E6 72%, #33BBCF 100%);
+    background-clip: text;
+}
+
+.description {
+    font-weight: 400;
+    line-height: 170%;
+    color:rgba(255, 255, 255, 0.7)
+}

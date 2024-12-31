@@ -10,15 +10,18 @@ body {
     padding-left: 135px;
     padding-right: 135px;
     background-color: var(--background-color);
+    overflow-x: hidden;
 }
 
 .header {
     margin-top: 30px;
+    margin-bottom: 65px;
     display: flex;
     align-content: center;
     justify-content: space-between;
 
-    margin-bottom: 65px;
+    margin-bottom: 190px;
+
 }
 .header__text {
     display: inline;
@@ -28,7 +31,7 @@ body {
 .discount-get_started-img {
     position: absolute;
     left: 600px;
-    top: 200px;
+    top: 275px;
 }
 
 
@@ -127,4 +130,104 @@ body {
     font-weight: 400;
     line-height: 170%;
     color:rgba(255, 255, 255, 0.7)
+}
+
+
+.ball_1 {
+    position: absolute;
+    width: 101px;
+    height: 101px;
+
+    left: 1203px;
+    top: 267px;
+}
+
+.ball_2 {
+    position: absolute;
+    left: 1647px;
+    top: 575px;
+}
+
+.ball_3 {
+    position: absolute;
+    left: 1387px;
+    top: 625px;
+
+}
+
+.card_1 {
+    position: absolute;
+    top: 232px;
+    left: 1303px;
+}
+
+.card_2 {
+    position: absolute;
+    top: 270px;
+    left: 1303px;
+}
+
+.card_3 {
+    position: absolute;
+    top: 426px;
+    left: 1345px;
+}
+
+.robot-hand {
+    left: 1249px;
+    position: absolute;
+    top: 390px;
+}
+
+.hand-blur {
+    position: absolute;
+    left: 1120px;
+    top: 55px;
+}
+
+.text-blur {
+    position: absolute;
+    left: 1px;
+    top: 0px;
+    filter: blur();
+    z-index: -1;
+}
+
+.info-h {
+    font-size: 40px;
+    line-height: 130%;
+    color: white;
+
+    margin-right: 26px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    margin-top: 144px;
+    margin-bottom: 180px;
+}
+
+.info-element {
+    display: flex;
+    align-items: center;
+}
+
+.info-text {
+    font-size: 20px;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-right: 44px;
+
+    color: transparent;
+    background: radial-gradient(64.33% 64.33% at 71.16%  35.69%, rgb(222, 249, 250) 0.8877529762685299%, rgb(190, 243, 245) 17.229999601840973%, rgb(157, 237, 240) 42.03999936580658%, rgb(125, 231, 235) 55.11999726295471%, rgb(92, 225, 230) 71.5399980545044%, rgb(51, 187, 207) 100%);
+    background-clip: text;
+
+}
+
+.info-divider {
+    color: white;
+    margin-right: 44px;
 }
